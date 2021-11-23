@@ -1,0 +1,157 @@
+/*  Lobster: font-family: 'Lobster', cursive;
+    LilGrotesk: font-family: Lilgrotesk;
+*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+    font-family: LilGrotesk;
+    src: url("assets/LilGrotesk-Regular.otf") format("opentype");
+}
+
+/* Header background */
+
+.creator-name,.navbar,.main,p{
+    font-family: LilGrotesk;
+}
+
+.about{
+    font-size: 30px;
+}
+
+h1,h2,h3{
+    font-family: 'Lobster', cursive;
+}
+
+.creator-name{
+    color:white;
+    font-size: 30px;
+}
+
+.container-background{
+    background-image: url("assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 110vh;
+    min-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.ewa-container{
+    padding: 28vh 0;
+    position: sticky;
+    height: 0px;
+    top: 0;
+}
+
+.ewa-title{
+    display: inline;
+    font-size: 120px;
+    color: white;
+    text-shadow: 12px 8px 7px black;
+}
+
+.profile-img{
+    display: inline;
+    width: 184px;
+    border-radius: 300px;
+}
+
+.creator-name{
+    text-align: end;
+}
+
+.creator-name a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.creator-name a:hover{
+    filter: blur(1px);
+}
+
+.container{
+    display: flex;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 62vh;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link{
+    margin: 60px 40px;
+    text-decoration: none;
+    font-size: 55px;
+    color: black;
+    display: block;
+}
+
+
+.nav-link:hover{
+    color: #626262;
+    filter: blur(1px);
+}
+
+/* Main*/
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* about */
+
+.about{
+    font-size: 35px;
+    margin: 66px 250px;
+}
+
+/* Commissions */
+
+.commissionContainer{
+    display: flex;
+    margin: 0 50%;
+    justify-content: center;
+}
+
+.commissionImage{
+    width: 670px;
+    height: auto;
+    margin: 40px;
+    align-self: center;
+}
+
+.commissionText{
+    align-self: flex-start;
+    font-size: 30px;
+}
+
+/* Networks */
+
+.network-title{
+    font-family: 'LilGrotesk';
+    font-size: 85px;
+    margin-top:130px;
+}
+
+.network-container{
+    display: flex;
+}
+
+.network-link{
+    margin:0 25px;
+}
+
+.network-image{
+    width: 150px;
+}
