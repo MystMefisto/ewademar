@@ -98,16 +98,33 @@ Commission.addEventListener('click',(e)=>{
     let priceImage = document.createElement('img');
     priceImage.src = 'commissions/prices.png';
     priceImage.classList.add('commissionImage');
-    priceContainer.appendChild(priceImage);
+    /* Adding title */
+    let disclaimerContainer = document.createElement('div');
+    disclaimerContainer.classList.add('commisionContainer');
+    let disclaimerTitle = document.createElement('h2');
+    disclaimerTitle.innerText = 'RULES';
+    disclaimerTitle.classList.add('disclaimerTitle');
+    /* Adding rules */
+    let disclaimerRules = document.createElement('ul');
+    disclaimerRules.classList.add('disclaimer');
+    let rule1 = document.createElement('li').innerHTML = "The payment will be made 100% before starting the drawing.";
+    let rule2 = document.createElement('li').innerHTML = "I don't draw against time.";
+    let rule3 = document.createElement('li').innerHTML = "Do not rush me, I have more to do other pending orders probably.";
+    let rule4 = document.createElement('li').innerHTML = "I don't make refunds after the sketch.";
+    let rule5 = document.createElement('li').innerHTML = "If you want a screenshot of the WIP you can request it.";
 
-    /* Disclaimer */
-    
+    disclaimerRules.append(rule1,rule2,rule3,rule4,rule5);
+
+    priceContainer.append(priceImage);
+
+    disclaimerContainer.append(disclaimerTitle,disclaimerRules);
+
     /* Appending every commission div to main */
     Main.append(commissionContainer1,commissionContainer2,
         commissionContainer3,commissionContainer4,
         commissionContainer5,commissionContainer6,
         commissionContainer7,commissionContainer8,
-        priceContainer);
+        disclaimerContainer,priceContainer);
 });
 
 Networks.addEventListener('click',(e)=>{

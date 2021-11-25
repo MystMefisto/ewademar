@@ -2,6 +2,63 @@
     LilGrotesk: font-family: Lilgrotesk;
 */
 
+
+@media (max-width:1280px){
+
+    /* Responsive phone */
+    
+        .ewa-container{
+            padding: 45vh 0 !important;
+        }
+    
+        .ewa-title{
+            font-size: 72px !important;
+        }
+    
+        .container{
+            flex-direction: column;
+        }
+    
+        .navbar{
+            position:relative !important;
+            display: flex !important;
+            height: 100px !important;
+            justify-content: center;
+            padding: 50px 0 !important;
+        }
+    
+        .nav-link{
+            font-size:4.2vw !important;
+            margin:60px 25px !important;
+        }
+    
+        .about{
+            font-size: 25px !important;
+            margin: 0px 30px 190px !important;
+            text-align: justify;
+        }
+    
+        .commissionImage{
+            width: 92vw !important;
+        }
+    
+        .network-title{
+            font-size: 60px !important;
+            margin-top: -5px !important;
+            text-align: center;
+        }
+    
+        .network-container{
+            flex-wrap: wrap;
+            margin-bottom: 160px;
+            justify-content: center;
+        }
+    
+        .network-image{
+            width:30vw;
+        }
+    }
+
 html {
     scroll-behavior: smooth;
   }
@@ -11,9 +68,10 @@ html {
     src: url("assets/LilGrotesk-Regular.otf") format("opentype");
 }
 
+
 /* Header background */
 
-.creator-name,.navbar,.main,p{
+.creator-name,.navbar,.main,p,li,lu{
     font-family: LilGrotesk;
 }
 
@@ -27,6 +85,7 @@ h1,h2,h3{
 
 .creator-name{
     color:white;
+    text-align: center;
     font-size: 30px;
 }
 
@@ -59,10 +118,6 @@ h1,h2,h3{
     display: inline;
     width: 184px;
     border-radius: 300px;
-}
-
-.creator-name{
-    text-align: end;
 }
 
 .creator-name a{
@@ -134,6 +189,17 @@ h1,h2,h3{
 .commissionText{
     align-self: flex-start;
     font-size: 30px;
+}
+
+.disclaimerTitle{
+    font-family: 'LilGrotesk';
+    font-size: 4vw;
+    margin: 0 4%;
+}
+
+.disclaimer{
+    font-size: 25px;
+    margin: 0 4%;
 }
 
 /* Networks */
