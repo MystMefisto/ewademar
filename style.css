@@ -78,10 +78,6 @@ html {
     font-family: LilGrotesk;
 }
 
-.about{
-    font-size: 30px;
-}
-
 h1,h2,h3{
     font-family: 'Lobster', cursive;
 }
@@ -113,15 +109,19 @@ h1,h2,h3{
 
 .ewa-title{
     display: inline;
-    font-size: 120px;
+    font-size: 100px;
     color: white;
     text-shadow: 12px 8px 7px black;
 }
 
 .profile-img{
     display: inline;
-    width: 184px;
+    width: 120px;
     border-radius: 300px;
+}
+
+.creator-name{
+    padding-left: 100px;
 }
 
 .creator-name a{
@@ -149,7 +149,7 @@ h1,h2,h3{
 .nav-link{
     margin: 60px 40px;
     text-decoration: none;
-    font-size: 55px;
+    font-size: 35px;
     color: black;
     display: block;
 }
@@ -171,16 +171,18 @@ h1,h2,h3{
 /* about */
 
 .about{
-    font-size: 35px;
-    margin: 66px 250px;
+    font-size: 30px;
+    margin: 66px 200px;
+    text-align: justify;
 }
 
 /* Commissions */
 
 .commissionContainer{
     display: flex;
-    margin: 0 50%;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .commissionImage{
@@ -203,19 +205,20 @@ h1,h2,h3{
 
 .disclaimer{
     font-size: 25px;
-    margin: 0 4%;
 }
 
 /* Networks */
 
 .network-title{
     font-family: 'LilGrotesk';
-    font-size: 85px;
+    font-size: 52px;
     margin-top:130px;
+    text-align: center;
 }
 
 .network-container{
     display: flex;
+    justify-content: center;
 }
 
 .network-link{

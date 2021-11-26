@@ -107,11 +107,16 @@ Commission.addEventListener('click',(e)=>{
     /* Adding rules */
     let disclaimerRules = document.createElement('ul');
     disclaimerRules.classList.add('disclaimer');
-    let rule1 = document.createElement('li').innerHTML = "The payment will be made 100% before starting the drawing.";
-    let rule2 = document.createElement('li').innerHTML = "I don't draw against time.";
-    let rule3 = document.createElement('li').innerHTML = "Do not rush me, I have more to do other pending orders probably.";
-    let rule4 = document.createElement('li').innerHTML = "I don't make refunds after the sketch.";
-    let rule5 = document.createElement('li').innerHTML = "If you want a screenshot of the WIP you can request it.";
+    let rule1 = document.createElement('li');
+    rule1.innerText = "The payment will be made 100% before starting the drawing.";
+    let rule2 = document.createElement('li');
+    rule2.innerText = "I don't draw against time.";
+    let rule3 = document.createElement('li');
+    rule3.innerText = "Do not rush me, I have more to do other pending orders probably.";
+    let rule4 = document.createElement('li');
+    rule4.innerText = "I don't make refunds after the sketch.";
+    let rule5 = document.createElement('li');
+    rule5.innerText = "If you want a screenshot of the WIP you can request it.";
 
     disclaimerRules.append(rule1,rule2,rule3,rule4,rule5);
 
