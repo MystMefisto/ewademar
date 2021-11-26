@@ -100,7 +100,7 @@ Commission.addEventListener('click',(e)=>{
     priceImage.classList.add('commissionImage');
     /* Adding title */
     let disclaimerContainer = document.createElement('div');
-    disclaimerContainer.classList.add('commisionContainer');
+    disclaimerContainer.classList.add('commissionContainer');
     let disclaimerTitle = document.createElement('h2');
     disclaimerTitle.innerText = 'RULES';
     disclaimerTitle.classList.add('disclaimerTitle');
