@@ -31,7 +31,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer1 = document.createElement('div');
     commissionContainer1.classList.add('commissionContainer');
     let commissionImage1 = document.createElement('img');
-    commissionImage1.src = 'commissions/commission1.png';
+    commissionImage1.src = 'https://i.postimg.cc/9X44TCHL/commission1.png';
     commissionImage1.classList.add('commissionImage');
     commissionContainer1.appendChild(commissionImage1);
 
@@ -39,7 +39,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer2 = document.createElement('div');
     commissionContainer2.classList.add('commissionContainer');
     let commissionImage2 = document.createElement('img');
-    commissionImage2.src = 'commissions/commission2.png';
+    commissionImage2.src = 'https://i.postimg.cc/6q7BvW7n/commission2.png';
     commissionImage2.classList.add('commissionImage');
     commissionContainer2.appendChild(commissionImage2);
 
@@ -47,7 +47,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer3 = document.createElement('div');
     commissionContainer3.classList.add('commissionContainer');
     let commissionImage3 = document.createElement('img');
-    commissionImage3.src = 'commissions/commission3.png';
+    commissionImage3.src = 'https://i.postimg.cc/B6RnNPfM/commission3.png';
     commissionImage3.classList.add('commissionImage');
     commissionContainer3.appendChild(commissionImage3);
 
@@ -55,7 +55,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer4 = document.createElement('div');
     commissionContainer4.classList.add('commissionContainer');
     let commissionImage4 = document.createElement('img');
-    commissionImage4.src = 'commissions/commission4.png';
+    commissionImage4.src = 'https://i.postimg.cc/ncbLDmkL/commission4.png';
     commissionImage4.classList.add('commissionImage');
     commissionContainer4.appendChild(commissionImage4);
 
@@ -63,7 +63,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer5 = document.createElement('div');
     commissionContainer5.classList.add('commissionContainer');
     let commissionImage5 = document.createElement('img');
-    commissionImage5.src = 'commissions/commission5.png';
+    commissionImage5.src = 'https://i.postimg.cc/sg3DnRbd/commission5.png';
     commissionImage5.classList.add('commissionImage');
     commissionContainer5.appendChild(commissionImage5);
 
@@ -71,7 +71,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer6 = document.createElement('div');
     commissionContainer6.classList.add('commissionContainer');
     let commissionImage6 = document.createElement('img');
-    commissionImage6.src = 'commissions/commission6.png';
+    commissionImage6.src = 'https://i.postimg.cc/Gmz3V51B/commission6.png';
     commissionImage6.classList.add('commissionImage');
     commissionContainer6.appendChild(commissionImage6);
 
@@ -79,7 +79,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer7 = document.createElement('div');
     commissionContainer7.classList.add('commissionContainer');
     let commissionImage7 = document.createElement('img');
-    commissionImage7.src = 'commissions/commission7.png';
+    commissionImage7.src = 'https://i.postimg.cc/xTv1ydx3/commission7.png';
     commissionImage7.classList.add('commissionImage');
     commissionContainer7.appendChild(commissionImage7);
 
@@ -87,7 +87,7 @@ Commission.addEventListener('click',(e)=>{
     let commissionContainer8 = document.createElement('div');
     commissionContainer8.classList.add('commissionContainer');
     let commissionImage8 = document.createElement('img');
-    commissionImage8.src = 'commissions/commission8.png';
+    commissionImage8.src = 'https://i.postimg.cc/YqztLs0X/commission8.png';
     commissionImage8.classList.add('commissionImage');
     commissionContainer8.appendChild(commissionImage8);
 
@@ -96,7 +96,7 @@ Commission.addEventListener('click',(e)=>{
     let priceContainer = document.createElement('div');
     priceContainer.classList.add('commissionContainer');
     let priceImage = document.createElement('img');
-    priceImage.src = 'commissions/prices.png';
+    priceImage.src = 'https://i.postimg.cc/C5jSNvNx/prices.png';
     priceImage.classList.add('commissionImage');
     /* Adding title */
     let disclaimerContainer = document.createElement('div');
@@ -153,7 +153,7 @@ Networks.addEventListener('click',(e)=>{
     furaffinityLink.href = 'https://www.furaffinity.net/user/ewademar/';
     furaffinityLink.target = '_blank';
     furaffinityImage.classList.add('network-image');
-    furaffinityImage.src = 'networks/furaffinity.png';
+    furaffinityImage.src = 'https://i.postimg.cc/9QP1hyxw/furaffinity.png';
     furaffinityLink.appendChild(furaffinityImage);
 
     /* Instagram */
@@ -164,7 +164,7 @@ Networks.addEventListener('click',(e)=>{
     instagramLink.href = 'https://www.instagram.com/ewademar_official/';
     instagramLink.target = '_blank';
     instagramImage.classList.add('network-image');
-    instagramImage.src = 'networks/instagram.png';
+    instagramImage.src = 'https://i.postimg.cc/rp8jFzbn/instagram.png';
     instagramLink.appendChild(instagramImage);
 
     /* Twitter */
@@ -175,7 +175,7 @@ Networks.addEventListener('click',(e)=>{
     twitterLink.href = 'https://twitter.com/ewademar';
     twitterLink.target = '_blank';
     twitterImage.classList.add('network-image');
-    twitterImage.src = 'networks/twitter.png';
+    twitterImage.src = 'https://i.postimg.cc/P5nK9SMk/twitter.png';
     twitterLink.appendChild(twitterImage);
 
     /* Reddit */
@@ -186,7 +186,7 @@ Networks.addEventListener('click',(e)=>{
     redditLink.href = 'https://www.reddit.com/user/ewademar';
     redditLink.target = '_blank';
     redditImage.classList.add('network-image');
-    redditImage.src = 'networks/reddit.png';
+    redditImage.src = 'https://i.postimg.cc/5tn3HbWx/reddit.png';
     redditLink.appendChild(redditImage);
 
     /* Appending container to links */

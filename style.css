@@ -28,6 +28,7 @@
         }
         .creator-name{
             text-shadow: 4px 4px 3px black;
+            padding-left: 0 !important;
         }
     
         .nav-link{
@@ -90,7 +91,7 @@ h1,h2,h3{
 }
 
 .container-background{
-    background-image: url("assets/background.jpg");
+    background-image: url("https://i.postimg.cc/nhC15Nyr/background.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
